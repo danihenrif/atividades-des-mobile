@@ -19,7 +19,7 @@ class HomeState extends State<Home> {
       _pessoa += delta;
       if (_pessoa >= 20) {
         _mensagem = "Lotado, não pode entrar.";
-        _pessoa = 20;
+        _pessoa = 20;d
       } else if (_pessoa < 0) {
         _mensagem = "Pode entrar!";
         _pessoa = 0;
